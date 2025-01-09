@@ -1,0 +1,16 @@
+/**
+ * @name UnreadPillRight
+ * @author moep
+ * @description move unread pills for servers and channels to the right
+ * @version 0.0.1
+ */
+
+[class*="listItem_"] [class*="pill_"] {
+  margin-left: 63px;
+  transform: scale(-1, 1);
+}
+
+[class*="containerDefault_"] [class*="unread_"] {
+    margin-left: 228px;
+    transform: scale(-1, 1);
+}
