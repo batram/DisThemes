@@ -1,0 +1,11 @@
+/**
+ * @name MaximizedDragFix
+ * @author moep
+ * @description Fix drag from top of top bar when window is maximized
+ * @version 0.0.1
+ */
+
+[class*="titleBar_"] {
+    padding-top: 4px;
+    margin-top: 0px;
+}
